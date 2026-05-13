@@ -2,7 +2,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-String kaynakKod=
+String kaynakKod="hayvanEkle\"Inek\";\n"+
     "yemVer 10;\n"+
 	"sutSag;\n"+
     "hasatYap;";
