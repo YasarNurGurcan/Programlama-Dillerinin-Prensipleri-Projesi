@@ -1,0 +1,7 @@
+// --- ANLAMSAL (SEMANTIC) HATA ÖRNEĞİ ---
+// Yazım doğrudur ancak mantıksal bir hata vardır.
+// Amacımız: Olmayan bir hayvandan ürün alınamayacağını göstermektir.
+
+String kaynakKod = "yemVer 20;\n" +        // Hangi hayvana yem verilecek? (Hayvan eklenmedi)
+                  "sutSag;\n" +           // Hangi hayvanın sütü sağılacak?
+                  "hasatYap;";            // Evaluator burada "Hayvan seçilmedi" hatası fırlatır.
