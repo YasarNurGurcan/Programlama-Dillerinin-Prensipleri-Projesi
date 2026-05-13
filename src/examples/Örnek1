@@ -1,0 +1,8 @@
+// --- FARMLANG BAŞARILI ÇALIŞMA ÖRNEĞİ ---
+// Bu kodda bir hayvan eklenir, beslenir ve verim alınır.
+// Tüm adımlar mantıksal ve gramer olarak doğrudur.
+
+String kaynakKod = "hayvanEkle \"Inek\";\n" + 
+                  "yemVer 10;\n" +          
+                  "sutSag;\n" +             
+                  "hasatYap;";               // Tüm işlemler tamamlanır ve kaydedilir
