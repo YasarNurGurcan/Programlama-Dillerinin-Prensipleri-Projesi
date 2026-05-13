@@ -1,0 +1,8 @@
+// --- SÖZDİZİMİ (SYNTAX) HATASI ÖRNEĞİ ---
+// Bu örnekte gramer kuralı ihlal edilmiştir (Noktalı virgül eksik).
+// Amacımız: Parser'ın satır sonundaki hatayı nasıl yakaladığını göstermektir.
+
+String kaynakKod = "hayvanEkle \"Koyun\";\n" +
+                  "yemVer 5\n" +           // <--- HATA: Burada ';' unutulmuştur!
+                  "sutSag;\n" +            // Parser burada duracak ve hata verecektir.
+                  "hasatYap;";
